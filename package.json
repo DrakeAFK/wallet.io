@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "mock-landing-zero",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -10,6 +10,11 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^2.9.6"
+    "@popperjs/core": "^2.11.8",
+    "@types/bootstrap": "^5.2.6",
+    "astro": "^2.9.6",
+    "astro-bootstrap": "^0.6.1",
+    "astro-navbar": "^2.0.1",
+    "bootstrap": "^5.3.1"
   }
 }
