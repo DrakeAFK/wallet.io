@@ -1,0 +1,20 @@
+---
+import "../global.css"
+const {title} = Astro.props;
+
+import Hero from "../components/Hero.astro";
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+        <title>{title}</title>
+	</head>
+	<body>
+		<slot />
+        <Hero />
+	</body>
+</html>

@@ -1,46 +1,9 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Sub from '../layouts/Sub.astro'
 
-import Navbar from '../components/Navbar.astro';
-import Footer from '../components/Footer.astro';
+import PricingContent from '../components/PricingContent.astro'
 ---
 
-<Layout title="Pricing">
-
-
-    <main class="container-fluid mx-auto">
-        <Navbar />
-        <div class="row text-center m-5">
-            <div class="col-md-6 mb-3">
-                <div class="card bg-dark border-3 border-rounded border-secondary">
-                    <div class="card-body">
-                        <h3 class="card-title text-light">Free Tier</h3>
-                        <h5 class="card-text text-light">Free Tier Functionality</h5>
-                        <a href="/signup" class="btn btn-success">Register w/ Free Tier</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 mb-3">
-                <div class="card bg-dark border-3 border-rounded border-secondary">
-                    <div class="card-body">
-                        <h3 class="card-title text-light">Bronze Tier</h3>
-                        <h5 class="card-text text-light">Bronze Tier Functionality</h5>
-                        <a href="/signup" class="btn btn-success">Register w/ Bronze Tier</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-12 mb-3 w-50 mx-auto">
-                <div class="card bg-dark border-3 border-rounded border-secondary">
-                    <div class="card-body">
-                        <h3 class="card-title text-light">Silver Tier</h3>
-                        <h5 class="card-text text-light">Silver Tier Functionality</h5>
-                        <a href="/signup" class="btn btn-success">Register w/ Silver Tier</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <hr class="border opacity-25 rounded border-3 mx-auto mb-5" style="width: 75%;">
-        <Footer />
-    </main>
-
-</Layout>
+<Sub title="Wallet.io - Pricing">
+	<PricingContent />
+</Sub>
